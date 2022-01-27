@@ -22,7 +22,7 @@ ms.custom:
 description: "Learn about extending Microsoft 365 compliance solutions by using third-party data connectors and Microsoft Graph APIs."
 ---
 
-# Microsoft 365 compliance extensibility
+# Microsoft 365 Compliance and Microsoft Priva extensibility
 
 Microsoft 365 compliance solutions help organizations intelligently assess their compliance risks, govern and protect sensitive data, and effectively respond to regulatory requirements. Microsoft 365 compliance is rich in extensibility scenarios and enables organizations to adapt, extend, integrate, accelerate, and support their compliance solutions.
 
@@ -48,9 +48,15 @@ For licensing requirements for third-party data connectors, see the "Data connec
 
 ## APIs
 
-Microsoft 365 compliance APIs are available in the Microsoft Information Protection SDK, Microsoft Graph API, and the Office 365 Management Activity API. Some compliance APIs are part of a new set of security and compliance APIs that enable developers for Microsoft 365 customers, independent software vendors, system integrators, and managed security service providers to build high-value security and compliance solutions.
+Microsoft 365 compliance and Microsoft Priva APIs are available in the Microsoft Information Protection SDK, Microsoft Graph API, and the Office 365 Management Activity API. Some compliance APIs are part of a new set of security and compliance APIs that enable developers for Microsoft 365 customers, independent software vendors, system integrators, and managed security service providers to build high-value security and compliance solutions.
 
 To learn more about how to access Graph APIs, see [Overview of Microsoft Graph](/graph/overview).
+
+### Microsoft Graph APIs for subject rights requests
+In accordance with certain privacy regulations around the world, individuals can make requests to review or manage the personal data about themselves that companies have collected. These requests are referred to as subject rights requests within the Microsoft Priva Subject Rights Requests solution; they are sometimes also referred to as data subject requests (DSRs) or data subject access requests (DSARs). Microsoft Graph APIs for subject rights requests enable developers to integrate Microsoft 365 related subject rights requests with broader privacy ecosystem. This API-based extensibility enables our customers to respond to subject rights requests in a unified manner across their entire data estate covering both Microsoft and non-Microsoft environments. This also helps with automation at scale and helps customers meet industry regulations more efficiently without relying on manual processes.
+
+Learn more about [Microsoft Graph APIs for subject rights request](/graph/api/resources/subjectrightsrequest-subjectrightsrequestapioverview?view=graph-rest-1.0).
+
 
 ### Microsoft Information Protection (MIP) SDK
 
